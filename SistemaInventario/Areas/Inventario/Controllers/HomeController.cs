@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace SistemaInventario.Areas.Cliente.Controllers
+namespace SistemaInventario.Areas.Inventario.Controllers
 {
-    [Area("Cliente")]
+    [Area("Inventario")]
     public class HomeController : Controller
     {
 
