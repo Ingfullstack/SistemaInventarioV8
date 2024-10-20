@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,10 +14,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SistemaInventario.Modelo\SistemaInventario.Modelo.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Repositorio\IRepositorio\" />
   </ItemGroup>
 
 </Project>
